@@ -45,7 +45,7 @@ if __name__ == "__main__":
         # Put the file name
         flname = 'employee_data1.csv'
         ascrape = ascrape()
-        qscrape.read_csv_file(flname)
+        ascrape.read_csv_file(flname)
         
     except Exception as error:
         # print stack trace
