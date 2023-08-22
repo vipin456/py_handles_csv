@@ -4,7 +4,7 @@ import csv
 import random
 from datetime import datetime
 
-class QScrape:
+class ascrape:
     """Overall class for running a scraping job, parsing it, etc."""
 
     cache_settings = None
@@ -38,7 +38,7 @@ class QScrape:
 
 if __name__ == "__main__":
     # Make an instance and run it
-    qscrape = None
+    ascrape = None
     script_start = datetime.now()
     print(f'Running Time: {script_start}')
     try:
