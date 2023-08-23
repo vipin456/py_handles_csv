@@ -38,7 +38,7 @@ class ascrape:
 
 if __name__ == "__main__":
     # Make an instance and run it
-    ascrape = None
+    # ascrape = None
     script_start = datetime.now()
     print(f'Running Time: {script_start}')
     try:
